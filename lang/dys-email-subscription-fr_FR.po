@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dys-email-subscription\n"
+"POT-Creation-Date: 2014-11-23 19:55+0100\n"
+"PO-Revision-Date: 2014-11-23 20:07+0100\n"
+"Last-Translator: Damien PIQUET <dpiquet@doyousoft.com>\n"
+"Language-Team: Damien PIQUET <dpiquet@doyousoft.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /home/damien/wordpress-plugin-dev/dys-email-"
+"subscription/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /home/damien/wordpress-plugin-dev/dys-email-"
+"subscription\n"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:39
+msgid "Emailing List"
+msgstr "Newsletter"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:40
+msgid "email collector widget"
+msgstr "Widget newsletter"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:47
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:56
+msgid "Subscribe to our News !"
+msgstr "Abonnez vous à notre newsletter !"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:62
+msgid "Title:"
+msgstr "Titre"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:103
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:125
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:607
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:614
+msgid "Email"
+msgstr "Email"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:104
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:125
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:608
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:615
+msgid "Registration date"
+msgstr "Date d'enregistrement"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:146
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:515
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:197
+msgid "Email Address"
+msgstr "Adresse email"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:199
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:203
+msgid "Subscribe"
+msgstr "S'abonner"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:201
+msgid "Unsubscribe"
+msgstr "Se désabonner"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:213
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:226
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:494
+msgid "An error occured, please try later or contact webmaster"
+msgstr ""
+"Une erreur est survenue, veuillez retenter plus tard ou contacter "
+"l'administrateur du site"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:218
+msgid "Your email address was successfully deleted from our database"
+msgstr "Votre adresse mail a bien été supprimée de notre base de données"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:231
+msgid "Your email address was subscribed successfully"
+msgstr "Votre adresse email a bien été ajoutée à notre base de données"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:238
+msgid "Email address seems invalid."
+msgstr "L'adresse email semble invalide"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:499
+msgid "Email was successfully removed from database"
+msgstr "L'adresse email a bien été supprimée de la base de données."
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:505
+msgid "Sorry, the address you supplied seems invalid. Please check"
+msgstr "L'adresse fournie semble invalide. Veuillez vérifier."
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:519
+msgid "Export to Excel"
+msgstr "Exporter au format Excel"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:524
+msgid "Export to CSV"
+msgstr "Exporter au format CSV"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:529
+msgid "Show per page"
+msgstr "Eléments par page"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:536
+msgid "All"
+msgstr "Tout"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:538
+msgid "Show"
+msgstr "Montrer"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:600
+msgid "Your research"
+msgstr "Recherche"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:601
+msgid "Search"
+msgstr "Rechercher"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:609
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:616
+msgid "Actions"
+msgstr "Actions"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:628
+msgid "Delete"
+msgstr "Supprimer"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:637
+msgid "Items"
+msgstr "Eléments"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:645
+msgid "This Information is empty"
+msgstr "Cette information est vide"
+
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:648
+msgid "No subscribers so far"
+msgstr "Aucun abonné pour le moment."
+
+#~ msgid "%d Subscribers"
+#~ msgstr "%d abonnés"

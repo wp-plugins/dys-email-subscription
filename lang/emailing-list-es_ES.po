@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Emailing Subscription v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-28 22:40:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: emailing-lista.php:32
+#: emailing-lista.php:58
+#@ default
+msgid "Emailing List"
+msgstr ""
+
+#: emailing-lista.php:103
+#@ emailing-list
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#: emailing-lista.php:357
+#@ emailing-list
+msgid "E-mailing List"
+msgstr "Lista de correos"
+
+#: emailing-lista.php:359
+#@ emailing-list
+msgid "Export to Excel"
+msgstr "Exportar a Excel"
+
+#: emailing-lista.php:424
+#: emailing-lista.php:429
+#@ emailing-list
+msgid "email"
+msgstr "Correo"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: emailing-lista.php:0
+#@ emailing-list
+msgid "http://www.seballero.com"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: emailing-lista.php:0
+#@ emailing-list
+msgid "Sebastian Orellana"
+msgstr ""
+
+#: emailing-lista.php:102
+#@ emailing-list
+msgid "Email Address"
+msgstr "Ingrese su correo"
+
+#: emailing-lista.php:111
+#@ emailing-list
+msgid "Email address seems invalid."
+msgstr "Dirección de correo inválida"
+
+#: emailing-lista.php:95
+#@ emailing-list
+msgid "Your email was subscribed successfully."
+msgstr "Correo suscrito correctamente"
+
+#. translators: plugin header field 'Name'
+#: emailing-lista.php:0
+#@ emailing-list
+msgid "Emailing Subscription"
+msgstr "Suscripción a Emailing"
+
+#. translators: plugin header field 'Description'
+#: emailing-lista.php:0
+#@ emailing-list
+msgid "A simple WordPress plugin for e-mailing subscription list."
+msgstr "Simple plugin para hacer suscripción a emailing"
+
+#. translators: plugin header field 'Version'
+#: emailing-lista.php:0
+#@ emailing-list
+msgid "1.1"
+msgstr ""
+
+#: emailing-lista.php:362
+#@ emailing-list
+msgid "Show per page"
+msgstr "Mostrar por página"
+
+#: emailing-lista.php:369
+#@ emailing-list
+msgid "All"
+msgstr "Todos"
+
+#: emailing-lista.php:371
+#@ emailing-list
+msgid "Show"
+msgstr "Mostrar"
+
+#: emailing-lista.php:448
+#@ emailing-list
+msgid "This Information is empty"
+msgstr "Esta información está vacía"
+
