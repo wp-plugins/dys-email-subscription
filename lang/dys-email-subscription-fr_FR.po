@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dys-email-subscription\n"
-"POT-Creation-Date: 2014-11-23 19:55+0100\n"
-"PO-Revision-Date: 2014-11-23 20:07+0100\n"
+"POT-Creation-Date: 2014-11-24 21:45+0100\n"
+"PO-Revision-Date: 2014-11-24 21:45+0100\n"
 "Last-Translator: Damien PIQUET <dpiquet@doyousoft.com>\n"
 "Language-Team: Damien PIQUET <dpiquet@doyousoft.com>\n"
 "Language: fr_FR\n"
@@ -36,15 +36,15 @@ msgstr "Titre"
 
 #: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:103
 #: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:125
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:607
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:614
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:611
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:618
 msgid "Email"
 msgstr "Email"
 
 #: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:104
 #: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:125
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:608
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:615
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:612
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:619
 msgid "Registration date"
 msgstr "Date d'enregistrement"
 
@@ -114,34 +114,40 @@ msgstr "Tout"
 msgid "Show"
 msgstr "Montrer"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:600
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:601
 msgid "Your research"
 msgstr "Recherche"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:601
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:602
 msgid "Search"
 msgstr "Rechercher"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:609
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:616
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:613
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:620
 msgid "Actions"
 msgstr "Actions"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:628
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:632
 msgid "Delete"
 msgstr "Supprimer"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:637
-msgid "Items"
-msgstr "Eléments"
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:641
+msgid "subscribers"
+msgstr "abonnés"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:645
-msgid "This Information is empty"
-msgstr "Cette information est vide"
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:649
+msgid "Your research did not match any result"
+msgstr "Votre recherche n'a retourné aucun résultat"
 
-#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:648
+#: /home/damien/wordpress-plugin-dev/dys-email-subscription/emailing-lista.php:652
 msgid "No subscribers so far"
 msgstr "Aucun abonné pour le moment."
+
+#~ msgid "Items"
+#~ msgstr "Eléments"
+
+#~ msgid "This Information is empty"
+#~ msgstr "Cette information est vide"
 
 #~ msgid "%d Subscribers"
 #~ msgstr "%d abonnés"

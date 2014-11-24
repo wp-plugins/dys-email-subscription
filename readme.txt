@@ -1,8 +1,8 @@
-=== Emailing Subscription ===
+=== DYS Emailing Subscription ===
 Contributors: dpik
 Tags: subscription, e-mailing, mailing, emailing, mail, users, email
 Requires at least: 3.4
-Tested up to: 4.0
+Tested up to: 4.0.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,10 +22,6 @@ This plugin does not send any email, it just collects email addresses
 
 Requirements:  
 * WordPress 3.4 or later  
-
-= Translators =
-
-* Spanish (es_ES) - [Sebastián Orellana](http://www.seballero.com)
 
 == Installation ==
 

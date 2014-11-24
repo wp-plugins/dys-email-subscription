@@ -543,7 +543,6 @@ function emailing() {
 
 global $wpdb;
 
-//$pagination_count = $wpdb->get_var($wpdb->prepare("SELECT COUNT(DISTINCT email) FROM ".$wpdb->prefix."emailinglist"));
 $pagination_count = $wpdb->get_var( 'SELECT COUNT(DISTINCT email) FROM ' . $wpdb->prefix . 'emailinglist' );
 if($pagination_count > 0) {
     //get current page
@@ -583,23 +582,28 @@ if($pagination_count > 0) {
         $list_start = 0;
     $list_end = ($this_page * $per_page) - 1;
 
-    $search = '';
+    $search = false;
  
     //Get the data from the database
     if ( isset( $_GET['search'] ) && $_GET['search'] != '' ) {
-	$result = $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM ' . $wpdb->prefix . 'emailinglist WHERE email LIKE "%s" GROUP BY email DESC LIMIT %d, %d', '%' . $_GET['search'] . '%', $list_start, $per_page ) );
-
 	$search = $_GET['search'];
+
+	sanitize_email( $search );
+
+	$result = $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM ' . $wpdb->prefix . 'emailinglist WHERE email LIKE "%s" GROUP BY email DESC LIMIT %d, %d', '%' . $search . '%', $list_start, $per_page ) );
+
     } else {
 	$result = $wpdb->get_results( $wpdb->prepare( 'SELECT * FROM ' . $wpdb->prefix . 'emailinglist GROUP BY email DESC LIMIT %d, %d', $list_start, $per_page ) );
     }
 
-    if( $result ) {        
-	echo '<form action=""><input type="hidden" name="page" value="emailing_list" />';
-	echo '<input type="hidden" name="p" value="' . $this_page . '">';
-	echo '<input type="text" name="search" placeholder="' . __( 'Your research' ) . '" value="' . $search . '">';
-	echo '<input type="Submit" value="' . __( 'Search' ) . '">';
-	echo '</form>';
+    echo '<form action=""><input type="hidden" name="page" value="emailing_list" />';
+    echo '<input type="hidden" name="p" value="' . $this_page . '">';
+    echo '<input type="text" name="search" placeholder="' . __( 'Your research' ) . '" value="' . $search . '">';
+    echo '<input type="Submit" value="' . __( 'Search' ) . '">';
+    echo '</form>';
+
+
+    if( $result ) { 
 
         echo "<table class='widefat'>
         <thead>    
@@ -634,7 +638,7 @@ if($pagination_count > 0) {
 
         <div class="tablenav">
             <div class="tablenav-pages">
-                <span class="displaying-num"><?php echo $pagination_count . ' ' . __( 'Items' ); ?> </span>
+                <span class="displaying-num"><?php echo $pagination_count . ' ' . __( 'subscribers' ); ?> </span>
                 <?php $pag->show(); ?>
             </div>
         </div> 
@@ -642,7 +646,7 @@ if($pagination_count > 0) {
 
 <?php
         } else {
-            echo '<h3>' . __( 'This Information is empty', 'dys-email-subscription' ) . '</h3>';
+            echo '<h3>' . __( 'Your research did not match any result', 'dys-email-subscription' ) . '</h3>';
         }
     }
     else { echo '<h3>' . __( 'No subscribers so far', 'dys-email-subscription' ) . '</h3>'; }
