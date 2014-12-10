@@ -195,8 +195,10 @@ function emailing_form( $title ) {
   <h3 class="widget-title"> <?php echo $title; ?> </h3>
   <form name="emailing" method="post"  class="clear">
     <input name="email" id="email" type="email" class="text" placeholder="<?php _e( 'Email Address', 'dys-email-subscription' ) ?>"/>
+    <br>
     <input type="radio" name="subscriber_action" value="subscribe" checked>
-      <span id="mailing_form_subscribe_text"><?php _e( 'Subscribe', 'dys-email-subscription' ); ?><br></span>
+      <span id="mailing_form_subscribe_text"><?php _e( 'Subscribe', 'dys-email-subscription' ); ?></span>
+      <br>
     <input type="radio" name="subscriber_action" value="unsubscribe">
       <span id="mailing_form_unsubscribe_text"><?php _e( 'Unsubscribe', 'dys-email-subscription' ); ?></span>
       <br>
