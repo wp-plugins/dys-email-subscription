@@ -191,9 +191,9 @@ function remove_subscriber( $email ) {
 
 function emailing_form( $title ) {
 ?>
-<aside id="dys-email-subscription" class="widget widget_dys-email-subscription"">
-  <h2 class="widget-title"> <?php echo $title; ?> </h2>
-  <form name="emailing" action="" method="post"  class="clear">
+<aside id="dys-email-subscription" class="widget widget_dys-email-subscription">
+  <h3 class="widget-title"> <?php echo $title; ?> </h3>
+  <form name="emailing" method="post"  class="clear">
     <input name="email" id="email" type="email" class="text" placeholder="<?php _e( 'Email Address', 'dys-email-subscription' ) ?>"/>
     <input type="radio" name="subscriber_action" value="subscribe" checked>
       <span id="mailing_form_subscribe_text"><?php _e( 'Subscribe', 'dys-email-subscription' ); ?><br></span>
@@ -238,9 +238,6 @@ function emailing_form( $title ) {
 		__( 'Email address seems invalid.', 'dys-email-subscription' ) .
 		'</span>';
          } 
-    }
-    else {
-        return false;
     }
 ?>
 </aside>
