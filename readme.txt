@@ -32,6 +32,10 @@ Requirements:
 
 == Changelog ==
 
+= 1.5 =
+* Fix missing closing aside tag
+* Valid html5 markup
+
 = 1.4 =
 * Added features (Fork)
 

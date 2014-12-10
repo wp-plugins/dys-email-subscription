@@ -5,7 +5,7 @@ Plugin URI: https://github.com/dpiquet/dys-email-subscription
 Description: A simple WordPress plugin for e-mailing subscription list.
 Author: Sebastian Orellana, Damien PIQUET
 Author URI: https://github.com/dpiquet/
-Version: 1.4
+Version: 1.5
 Text Domain: dys-email-subscription
 Domain Path: /lang
 */
