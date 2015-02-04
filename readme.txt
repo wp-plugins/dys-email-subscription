@@ -2,7 +2,7 @@
 Contributors: dpik
 Tags: subscription, e-mailing, mailing, emailing, mail, users, email
 Requires at least: 3.4
-Tested up to: 4.0.1
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -31,6 +31,10 @@ Requirements:
 5. YOU'RE DONE!
 
 == Changelog ==
+
+= 1.6 =
+* Tested up to 4.1
+* Changed form class from "clear" to "dys_email"
 
 = 1.5 =
 * Fix missing closing aside tag

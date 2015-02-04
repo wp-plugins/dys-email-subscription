@@ -193,7 +193,7 @@ function emailing_form( $title ) {
 ?>
 <aside id="dys-email-subscription" class="widget widget_dys-email-subscription">
   <h3 class="widget-title"> <?php echo $title; ?> </h3>
-  <form name="emailing" method="post"  class="clear">
+  <form name="emailing" method="post"  class="dys_email">
     <input name="email" id="email" type="email" class="text" placeholder="<?php _e( 'Email Address', 'dys-email-subscription' ) ?>"/>
     <br>
     <input type="radio" name="subscriber_action" value="subscribe" checked>
